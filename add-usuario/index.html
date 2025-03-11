@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../add-usuario/css/style.css">
+</head>
+<body>
+    <div class="modal">
+        <div class="fundo-modal">
+            <h2>Adicionar Novo Usuário</h2>
+            <label for="name">Nome</label>
+            <input type="text" id="name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <h3>Status</h3>
+            <div class="pontos">
+                <label><input type="radio" name="status"> Ativo</label>
+                <label><input type="radio" name="status"> Não Ativo</label>
+            </div>
+
+            <h3>Perfil</h3>
+            <div class="pontos">
+                <label><input type="radio" name="perfil"> Aluno</label>
+                <label><input type="radio" name="perfil"> Professor</label>
+            </div>
+
+            <div class="button">
+                <button id="cancelar">Cancelar</button>
+                <button id="salvar">Salvar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

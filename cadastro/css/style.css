@@ -1,0 +1,88 @@
+@import url(../../../style/global.css);
+
+body{
+    background: linear-gradient(to bottom, var(--primary-color), var(--secundary-color), var(--third-color));
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+ }
+ header{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+.logo img{
+    width: 30px; 
+    height: 30px;
+    margin-right: 2px;
+}
+.titulo{
+    display: inline;
+    color: var(--sixth-color);
+    font-size: 25px;
+    position: relative; 
+    top: -7px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+main{
+    display: flex; 
+    justify-content: center; 
+}
+.container{
+    background: var(--fourth-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 547px;
+    
+}
+.container h2{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.cadastro{
+    display: flex;
+    background: var(--sixth-color);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 28px;
+    margin-left: 70px;
+    width: 407px;
+}
+.cadastro img{
+    width: 25px;
+    height: 25px;
+    margin-left: 21px;
+    margin-top: 2px;
+}
+.cadastro p {
+    display: flex;
+    font-size: 18px;
+    margin-top: 4px;
+    font-family: "Inter", sans-serif;
+    padding-left: 18px;
+}
+#btn {
+    justify-content: space-between;
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 92px;
+    height: 32px;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+#btn:hover {
+    background: var(--secundary-color);
+}

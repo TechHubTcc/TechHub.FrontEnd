@@ -1,0 +1,35 @@
+@import url(../../../style/global.css);
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+}
+.header{
+    background-color: var(--Seventh-color);
+    text-align: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: var(--sixth-color);
+}
+.container{
+    width: 300px;
+    margin: 26px;
+    font-size: 11px;
+    font-family: "Inter", sans-serif;
+    
+}
+.container h1{
+    margin-bottom: 30px;
+}
+.horario{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 30px;
+}
+.redes-sociais{
+    margin-top: 70px;
+    font-size: 15px;
+}
+

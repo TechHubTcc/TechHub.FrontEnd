@@ -1,0 +1,96 @@
+@import url(../../../style/global.css);
+
+body{
+   background: linear-gradient(to bottom, var(--primary-color), var(--secundary-color), var(--third-color));
+   padding: 0px;
+   margin: 0px;
+   background-attachment: fixed;
+
+}
+header{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+.logo img{
+    width: 30px; 
+    height: 30px;
+    margin-right: 2px;
+    
+}
+.titulo{
+    display: inline;
+    color: var(--fourth-color);
+    font-size: 25px;
+    position: relative; 
+    top: -7px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+main {
+    display: flex; 
+    justify-content: center; 
+}
+form{
+    background-color: var(--fourth-color);;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+.login h1 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 41px;
+
+}
+.login p {
+    margin-bottom: 12px;
+    margin-left: 40px;
+    padding: 0px;
+    border: 0px;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+
+}
+.login input{
+    margin-bottom: 40px;
+    width: 350px;
+    height: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-color: var(--sixth-color);
+    border-radius: 20px;
+    
+}
+input:focus {
+    border-color: var(--fourth-color);
+}
+.login #entrar{
+    width: 116px;
+    height: 41px;
+    margin-left: 245px;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border-color: var(--primary-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login button:hover {
+    background-color: var(--secundary-color);
+    
+}
+.criar-conta{
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 150px;
+}
