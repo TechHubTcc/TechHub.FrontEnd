@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #D83933; 
+    --secundary-color: #950C11;     
+    --third-color:  #7a0000;
+    --fourth-color: #F1F1F1;
+    --sixth-color: #FFFFFF;
+    --Seventh-color: #AA0C13;
+}
